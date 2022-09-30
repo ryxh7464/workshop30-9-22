@@ -57,7 +57,11 @@ ggplot(data = plastic_waste,
 *Remove this text, and add your answer for Exercise 5 here.*
 
 ```{r plastic-waste-mismanaged}
-# remove this comment and add the code for Exercise 5 here
+ggplot(data = plastic_waste,
+       mapping = aes(x = plastic_waste_per_cap,
+                     y = mismanaged_plastic_waste_per_cap)) +
+  geom_point()
+#The relationship between plastic waste per capita and mismanaged plastic waste per capita is a positive correlation.
 ```
 
 ### Exercise 6
