@@ -43,10 +43,13 @@ We defined color and fill in the mapping aesthetics as they depend on continent,
 
 ### Exercise 4
 
-*Remove this text, and add your answer for Exercise 4 here.*
+The violin plots allow us to see the density of the points of the dataset. 
 
 ```{r plastic-waste-violin}
-# remove this comment and add the code for Exercise 4 here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()
 ```
 
 ### Exercise 5
