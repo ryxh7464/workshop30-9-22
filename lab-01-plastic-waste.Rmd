@@ -80,11 +80,17 @@ ggplot(data = plastic_waste,
 *Remove this text, and add your answer for Exercise 7 here.*
 
 ```{r plastic-waste-population-total}
-# remove this comment and add the code for the first plot for Exercise 7 here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = total_pop, 
+                     y = plastic_waste_per_cap)) +
+  geom_point()
 ```
 
 ```{r plastic-waste-population-coastal}
-# remove this comment and add the code for the second plot for Exercise 7 here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = coastal_pop, 
+                     y = plastic_waste_per_cap)) +
+  geom_point()
 ```
 
 ### Exercise 8
