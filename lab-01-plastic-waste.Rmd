@@ -29,8 +29,6 @@ ggplot(data = plastic_waste, aes(x = plastic_waste_per_cap)) +
 
 ### Exercise 2
 
-We defined color and fill in the mapping aesthetics as they depend on continent, however we define the alpha value as a characteristic of the plotting geom as we want it to be a fixed value, regardless of continent.
-
 ```{r plastic-waste-density}
 ggplot(data = plastic_waste, 
        mapping = aes(x = plastic_waste_per_cap, 
@@ -41,7 +39,7 @@ ggplot(data = plastic_waste,
 
 ### Exercise 3
 
-*Remove this text, and add your answer for Exercise 3 here.*
+We defined color and fill in the mapping aesthetics as they depend on continent, however we define the alpha value as a characteristic of the plotting geom as we want it to be a fixed value, regardless of continent.
 
 ### Exercise 4
 
