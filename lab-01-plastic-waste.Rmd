@@ -99,6 +99,7 @@ ggplot(data = plastic_waste,
        mapping = aes(x = coastal_pop/total_pop, 
                      y = plastic_waste_per_cap,
                      color = continent)) +
+                     ylim(0,0.8)+
   geom_point()+
   geom_smooth(aes(group = 1))
   
